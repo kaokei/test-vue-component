@@ -1,0 +1,20 @@
+<meta charset="utf-8">
+<title>mySimple demo</title>
+<script src="https://unpkg.com/vue@next"></script>
+<script src="https://unpkg.com/lodash@4.17.21/lodash.min.js"></script>
+<script src="./dist/mySimple.umd.js"></script>
+
+<link rel="stylesheet" href="./dist/mySimple.css">
+
+
+<div id="app">
+  <demo msg="hello world nihao"></demo>
+</div>
+
+<script>
+Vue.createApp({
+  components: {
+    demo: mySimple
+  }
+}).mount('#app')
+</script>
