@@ -7,7 +7,7 @@
 </template>
 
 <script>
-const _ = require("lodash");
+import _ from "lodash";
 
 export default {
   name: "Simple",
