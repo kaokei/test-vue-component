@@ -2,7 +2,7 @@
 
 ## 使用方式
 
-打包 Simple 组件
+打包 Simple 组件，参考[官方文档](https://next.cli.vuejs.org/zh/guide/build-targets.html)。
 
 ```
 npx vue-cli-service build --target lib --name mySimple src/components/Simple.vue
